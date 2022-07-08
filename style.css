@@ -161,5 +161,49 @@ body{
     -webkit-appearance: none;   /* This will make it work */
   }
 
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  }
+
+  /* Textarea styling */
+  
+  .form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  /* Button styling */
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #5995DA;
+  
+    border: none;
+    border-radius: 3px;
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  .form-row button:hover {
+    background-color: #76AEED;
+  }
+  
+  .form-row button:active {
+    background-color: #407FC7;
+  }
 
 }
